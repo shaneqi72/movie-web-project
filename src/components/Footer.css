@@ -1,0 +1,23 @@
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ul {
+    padding: 0;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h4 {
+    color: white;
+}
+.copyright {
+    color: white;
+}
+.footer-container {
+    margin-top: 30rem;
+}

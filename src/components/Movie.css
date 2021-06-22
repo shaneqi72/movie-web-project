@@ -1,0 +1,26 @@
+.movie {
+    width: 180px;
+    
+}
+
+.movie img {
+    max-width: 100%;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+.tag {
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}

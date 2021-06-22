@@ -1,0 +1,14 @@
+.mainImage {
+    display: flex;
+    flex: 1;
+    overflow-x: auto;
+}
+.slidesImage {
+    margin-left: 1px;
+    display: flex;
+}
+a {
+display: flex;
+    flex: 1;
+    overflow-x: auto;
+}
