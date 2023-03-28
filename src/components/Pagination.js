@@ -19,8 +19,6 @@ const Pagination = ({ pages, onChangePage, currentPage, setCurrentPage }) => {
         }
     };
 
-    console.log('maxPageNumberLimit', maxPageNumberLimit)
-
     const handlePrevBtn = () => {
         setCurrentPage(currentPage - 1);
 
@@ -40,8 +38,6 @@ const Pagination = ({ pages, onChangePage, currentPage, setCurrentPage }) => {
     if (pageLinks.length > maxPageNumberLimit && maxPageNumberLimit > 5) {
         pageDecrementBtn = <li onClick={handlePrevBtn} >&hellip;</li>
     }
-
-    console.log('pagelinks', pages, currentPage, pageLinks);
 
     return (
         <div className='container'>
